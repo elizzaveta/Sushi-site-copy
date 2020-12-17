@@ -1,0 +1,255 @@
+.hidden_promo{
+}
+.promo_image{
+    width: 100%;
+
+}
+.mSyshi{
+    color: #e40e21;
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+.headerElem{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.cart_numb{
+    padding-left: 7px;
+    padding-right: 7px;
+    text-align: center;
+    background: #e4f2f4;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+body{
+    padding-top: 68px;
+}
+.line{
+    background: rgb(228, 242, 244);
+    height: 5px;
+}
+.m-st{
+    margin-top: 50px;
+}
+.pointer:hover{
+    cursor: pointer;
+}
+.forms{
+    margin: 20px;
+}
+input:invalid {
+    border: 1px solid red;
+}
+input:valid {
+     border: 1px solid green;
+ }
+.v_header{
+    visibility: hidden;
+}
+.v_footer{
+    visibility: hidden;
+}
+.bucket{
+    margin-right: 15px;
+}
+
+.box {
+    transition: background-color 2s, transform 1s;
+}
+
+.box:hover {
+    background-color: #a8d5db;
+}
+
+.pulse_button {
+    box-shadow: 0 0 0 0 rgb(60, 163, 177);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgb(60, 163, 177);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
+
+.m_slider{
+    margin: auto;
+    overflow: hidden;
+}
+.m_slide{
+    top: 0;
+    left: 0px;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes slide1 {
+    from {
+        left: 0px;
+    }
+    21% {
+        transform: translate(0px);
+    }
+    24%{
+        transform: translate(-953px);
+    }
+    46% {
+        transform: translate(-953px);
+    }
+    49%{
+        transform: translate(-1906px);
+    }
+    71%{
+        transform: translate(-1906px);
+    }
+    74%{
+        transform: translate(-953px);
+    }
+    96%{
+        transform: translate(-953px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+@keyframes slide2 {
+    from {
+        left: 0px;
+    }
+    21% {
+        transform: translate(0px);
+    }
+    24%{
+        transform: translate(-554px);
+    }
+    46% {
+        transform: translate(-554px);
+    }
+    49%{
+        transform: translate(-1106px);
+    }
+    71%{
+        transform: translate(-1106px);
+    }
+    74%{
+        transform: translate(-554px);
+    }
+    96%{
+        transform: translate(-554px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+@keyframes slide3 {
+    from {
+        left: 0px;
+    }
+    21% {
+        transform: translate(0px);
+    }
+    24%{
+        transform: translate(-301px);
+    }
+    46% {
+        transform: translate(-301px);
+    }
+    49%{
+        transform: translate(-600px);
+    }
+    71%{
+        transform: translate(-600px);
+    }
+    74%{
+        transform: translate(-301px);
+    }
+    96%{
+        transform: translate(-301px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+
+/*.slide1 {*/
+/*    background-image: url("img_promo/pri-opozdanii-podarok.jpg");*/
+/*    animation-delay: 5s;*/
+/*}*/
+/*.slide2 {*/
+/*    background-image: url(img_promo/darim-desertiki-gotovim-s-lyubovyu3.jpg);*/
+/*    animation-delay: 2.5s;*/
+/*}*/
+/*.slide3 {*/
+/*    background-image: url(img_promo/skidka--20-dlya-imeninnikov.jpg);*/
+/*    animation-delay: 0s;*/
+/*}*/
+
+
+@media (min-width: 576px) {
+    body{
+         margin-top: 51px;
+    }
+
+}
+@media (min-width: 773px){
+    .stickyMenu{
+        margin-top: 65px;
+        height: 500px;
+        top: 120px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    body{
+        margin-top: 46px;
+    }
+    .m_slide{
+        animation-name: slide3;
+        height: 101px;
+    }
+    .m_slider {
+        width: 298px;
+        height: 101px;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .m_slider {
+        width: 953px;
+        height: 300px;
+    }
+    .m_slide{
+        animation-name: slide1;
+
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 576px){
+    .m_slide{
+        animation-name: slide2;
+        height: 186px;
+    }
+    .m_slider {
+        width: 551px;
+        height: 186px;
+    }
+}
+
+

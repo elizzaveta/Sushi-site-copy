@@ -1,0 +1,267 @@
+{
+  "products": [
+    {
+      "url": "california",
+      "product_name": "Калифорния",
+      "product_description": "Состав....",
+      "price": "184",
+      "weight": "170",
+      "realated_products_id": [
+        1,
+        2
+      ],
+      "category_id": 1,
+      "recomended": true,
+      "pr_image":"img_roll\\Kaliforniya.jpg"
+    },
+    {
+       "url": "philadelphia_fresh",
+      "product_name": "Филадельфия Фреш",
+      "product_description": "Состав....",
+      "price": "198",
+      "weight": "205",
+      "realated_products_id": [
+        1,
+        2
+      ],
+      "category_id": 1,
+      "recomended": true,
+      "pr_image":"img_roll\\fil_fresh.jpg"
+    },
+    {
+      "url": "avocado",
+      "product_name": "С авокадо",
+      "product_description": "Состав....",
+      "price": "48",
+      "weight": "85",
+      "realated_products_id": [
+        1,
+        2
+      ],
+      "category_id": 1,
+      "recomended": true,
+      "pr_image":"img_roll\\Avokado.jpg"
+    },
+    {
+      "url": "eel",
+      "product_name": "С угрем",
+      "product_description": "Состав....",
+      "price": "90",
+      "weight": "85",
+      "realated_products_id": [
+        1,
+        2
+      ],
+      "category_id": 1,
+      "recomended": true,
+      "pr_image":"img_roll\\Unagi.jpg"
+    },
+    {
+      "url": "mexican",
+      "product_name": "Мексиканский",
+      "product_description": "Состав....",
+      "price": "142",
+      "weight": "170",
+      "realated_products_id": [
+        1,
+        2
+      ],
+      "category_id": 1,
+      "recomended": true,
+      "pr_image":"img_roll\\mexican.jpg"
+    },
+    {
+      "url": "warm_salmon",
+      "product_name": "Теплый лосось",
+      "product_description": "Состав....",
+      "price": "128",
+      "weight": "170",
+      "realated_products_id": [
+        1,
+        2
+      ],
+      "category_id": 1,
+      "recomended": true,
+      "pr_image":"img_roll\\warm_salmon.jpg"
+    },
+    {
+      "url": "hiyashi",
+      "product_name": "Хияши",
+      "product_description": "Состав....",
+      "price": "22",
+      "weight": "30",
+      "realated_products_id": [
+        3,
+        4
+      ],
+      "category_id": 2,
+      "recomended": true,
+      "pr_image":"img_sushi\\Hiyashi.jpg"
+    },
+    {
+      "url": "tobiko",
+      "product_name": "Тобико",
+      "product_description": "Состав....",
+      "price": "32",
+      "weight": "25",
+      "realated_products_id": [
+        3,
+        4
+      ],
+      "category_id": 2,
+      "recomended": true,
+      "pr_image":"img_sushi\\Tobilo.jpg"
+    },
+    {
+      "url": "kani",
+      "product_name": "Кани",
+      "product_description": "Состав....",
+      "price": "64",
+      "weight": "25",
+      "realated_products_id": [
+        3,
+        4
+      ],
+      "category_id": 2,
+      "recomended": true,
+      "pr_image":"img_sushi\\Kani.jpg"
+    },
+    {
+      "url": "unagi",
+      "product_name": "Унаги",
+      "product_description": "Состав....",
+      "price": "48",
+      "weight": "25",
+      "realated_products_id": [
+        3,
+        4
+      ],
+      "category_id": 2,
+      "recomended": true,
+      "pr_image":"img_sushi\\unagi.jpg"
+    },
+    {
+      "url": "syake",
+      "product_name": "Сякэ",
+      "product_description": "Состав....",
+      "price": "30",
+      "weight": "25",
+      "realated_products_id": [
+        3,
+        4
+      ],
+      "category_id": 2,
+      "recomended": true,
+      "pr_image":"img_sushi\\syake.jpg"
+    },
+    {
+      "url": "satori_set",
+      "product_name": "Сатори сет",
+      "product_description": "Состав....",
+      "price": "500",
+      "weight": "675",
+      "realated_products_id": [
+        5,
+        6
+      ],
+      "category_id": 3,
+      "recomended": true,
+      "pr_image":"img_set\\satori_set.jpg"
+    },
+    {
+      "url": "mikado_set",
+      "product_name": "Микадо сет",
+      "product_description": "Состав....",
+      "price": "500",
+      "weight": "730",
+      "realated_products_id": [
+        5,
+        6
+      ],
+      "category_id": 3,
+      "recomended": true,
+      "pr_image":"img_set\\mikado_set.jpg"
+    },
+    {
+      "url": "lotus_set",
+      "product_name": "Лотос сет",
+      "product_description": "Состав....",
+      "price": "500",
+      "weight": "670",
+      "realated_products_id": [
+        5,
+        6
+      ],
+      "category_id": 3,
+      "recomended": true,
+      "pr_image":"img_set\\lotus_set.jpg"
+    },
+    {
+      "url": "vegan_set",
+      "product_name": "Веганский сет",
+      "product_description": "Состав....",
+      "price": "337",
+      "weight": "570",
+      "realated_products_id": [
+        5,
+        6
+      ],
+      "category_id": 3,
+      "recomended": true,
+      "pr_image":"img_set\\vegan_set.jpg"
+    },
+    {
+      "url": "ultimate_de_luxe",
+      "product_name": "Ultimate De Luxe",
+      "product_description": "Состав....",
+      "price": "1250",
+      "weight": "1215",
+      "realated_products_id": [
+        5,
+        6
+      ],
+      "category_id": 3,
+      "recomended": true,
+      "pr_image":"img_set\\ultimate_de_luxe.jpg"
+    }
+  ],
+  "promo": [
+  {
+    "url":"happy_hour",
+    "pr_image":"img_promo\\darim-desertiki-gotovim-s-lyubovyu31.jpg",
+    "name":"СЧАСТЛИВЫЕ ЧАСЫ -25%",
+    "details":"ЛЮБОЕ БЛЮДО СО СКИДКОЙ 25%! КАЖДЫЙ ДЕНЬ С 10:00 ДО 16:00 НА ВСЕ МЕНЮ*",
+    "more_details":"ВРЕМЯ СКИДОК! Мы знаем, как Ваш обед сделать вкусным и выгодным! В любой день с 10:00 до 16:00 каждое блюдо будет на 25% дешевле. Скидка действует как на доставку, так и на самовывоз. Но будьте внимательны: на предварительные заказы после 16:00 скидка не действует. При подтверждении заказа, оператор делает 25% скидки и озвучивает Вам итоговую сумму. *Акция распространяется на все меню, кроме напитков и продуктов для суши. *Не суммируется с другими акциями."
+  },{
+    "url":"happy_birthday",
+    "pr_image":"img_promo\\skidka--20-dlya-imeninnikov.jpg",
+    "name":"СКИДКА -20% ДЛЯ ИМЕНИННИКОВ!",
+    "details":"В ДЕНЬ РОЖДЕНИЯ И НА ПРОТЯЖЕНИИ НЕДЕЛИ ПОСЛЕ! ВСЕМ ИМЕНИННИКАМ МЫ ДАРИМ 20%!",
+    "more_details":"HAPPY -20% В ДЕНЬ РОЖДЕНИЯ! Сделать заказ со скидкой -20% вы можете как непосредственно в день вашего рождения, так и на протяжении 1 недели после. Для получения скидки необходимо показать нашим менеджерам в ближайшем Sushi-Point (https://sushi-point.com.ua/pages-kontakty) любой документ, где указана дата вашего рождения, или предоставить документ курьеру при доставке. *Акция распространяется на все меню, кроме напитков и продуктов для суши. * Не суммируется с другими акциями."
+  },{
+    "url":"sorry_card",
+    "pr_image":"img_promo\\pri-opozdanii-podarok.jpg",
+    "name":"SORRY КАРТА",
+    "details":"ЕСЛИ МЫ ОПОЗДАЕМ – ВЫ ПОЛУЧИТЕ ПОДАРОК",
+    "more_details":"ЕСЛИ МЫ ОПОЗДАЕМ – ВЫ ПОЛУЧИТЕ ПОДАРОК! Мы доставляем суши максимум за 90 минут! Если с момента оформления заказа прошло больше озвученного времени и наш курьер задерживается, требуйте сорри-карту, и Вы гарантировано получите Ролл в Подарок при следующем заказе. В связи с отдалённостью или погодными условиями время доставки может измениться. Время вашей доставки всегда уточняет наш оператор при оформлении заказа."
+  }
+  ],
+  "categories":[
+    {
+      "url":"rolls",
+      "name":"Роллы",
+      "id":1
+    },
+    {
+      "url":"sushi",
+      "name":"Суши",
+      "id":2
+    },
+    {
+      "url":"sets",
+      "name":"Сеты",
+      "id":3
+    }
+  ],
+  "recomendations": [1,2,3,4,9,12]
+}
